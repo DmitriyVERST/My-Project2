@@ -1,0 +1,315 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 2500px;
+}
+.implant {
+    position: absolute;
+    width: 150px;
+    height: 1045px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(51, 51, 51, 0.75);
+}
+.vector {
+    margin-top: 10px;
+}
+.text-vs {
+    position: absolute;
+    z-index: 1;
+    margin-top: -600px;
+    margin-left: -205px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    transform: rotate(-91deg);
+    width: 500px;
+    height: 0px;
+}
+/* Векторы */
+.mlk {
+    margin-left: 62px;
+    margin-top: 530px;
+}
+.vector0 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.vector1 {
+    margin-top: 70px;
+    position: absolute;
+    margin-left: -29px;
+}
+.vector2 {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 140px;
+}
+.vector3 {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 190px;
+}
+.text-slk-menu {
+    margin-left: 250px;
+    margin-top: -1000px;
+}
+.slk-menu {
+    margin-left: 80px;
+    padding-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.telefon-menu {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 1180px;
+    margin-top: -20px;
+}
+.slk-menu:hover {
+    color: rgb(160, 160, 160);
+}
+.telefon-menu:hover {
+    text-decoration: underline;
+}
+.tp-telefon {
+    text-decoration: none;
+}
+.knig {
+    margin-top: -250px;
+    margin-left: 1100px;
+}
+.glt-text-menu {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+.text-p {
+    color: #fff;
+    position: absolute;
+    width: 540px;
+    height: 79px;
+    margin-left: 500px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+}
+.button {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    color: #fff;
+    text-decoration: none;
+    
+    margin-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #D1A954;
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    background: #D1A954;
+}
+.text-button {
+    color: #fff;
+    text-decoration: none;
+}
+.block2 {
+    position: static;
+    width: 1920px;
+    height: 4000px;
+    background-color: #333333;
+}
+.about {
+    margin-top: 380px;
+    margin-left: 380px;
+}
+.h1block3 {
+    font-size: 48px;
+    margin-top: -2860px;
+    margin-left: 740px;
+    font-family: 'Roboto', sans-serif;
+}
+.brite {
+    color: #D1A954;
+}
+.nitra {
+    color: #fff;
+}
+/* Слайдер */
+  
+  div.cont {
+      margin-left: -20px;
+      margin: 60px auto;
+      max-width: 1000px;
+      position: relative;
+  }
+  
+  div.cont>div.prev,
+  div.cont>div.next {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      width: 40px;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+  }
+  
+  div.cont>div.prev {
+      left: 0;
+  }
+  
+  div.cont>div.prev>.arrow-left {
+      height: 20px;
+      width: 20px;
+      border-top: 2px solid #fff;
+      border-right: 2px solid #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-20%, -50%) rotate(225deg);
+      -ms-transform: translate(-20%, -50%) rotate(225deg);
+      -o-transform: translate(-20%, -50%) rotate(225deg);
+      transform: translate(-20%, -50%) rotate(225deg);
+  }
+  
+  div.cont>div.next {
+      right: 0;
+  }
+  
+  div.cont>div.next>.arrow-right {
+      height: 20px;
+      width: 20px;
+      border-top: 2px solid #fff;
+      border-right: 2px solid #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-70%, -50%) rotate(45deg);
+      -ms-transform: translate(-70%, -50%) rotate(45deg);
+      -o-transform: translate(-70%, -50%) rotate(45deg);
+      transform: translate(-70%, -50%) rotate(45deg);
+  }
+  
+  ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      height: 500px;
+      max-width: 100%;
+  }
+  
+  li {
+      min-width: 100%;
+      max-width: 1000px;
+      height: 500px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: 0.6s ease-in-out;
+  }
+  
+  li.visible {
+      opacity: 1;
+      transition: 0.6s ease-in-out;
+  }
+  
+  li>img {
+      display: block;
+      width: 100%;
+      height: 100%;
+  }
+.cont {
+    margin-left: -60px;
+}
+.min-zv {
+    margin-top: 150px;
+    margin-left: 370px;
+}
+.partner {
+    margin-top: 140px;
+    margin-left: 370px;
+}
+.h1block6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-top: 200px;
+    margin-left: 670px;
+}
+.polo {
+    color: #D1A954;
+}
+.tityle {
+    color: #fff;
+}
+.group1 {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.form-group2 {
+    margin-top: 30px;
+}
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    color: #989898;
+    font-size: 14px;
+    background-color: #444444;
+    border: 1px solid #444444;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+.group2 {
+    margin-left: 850px;
+    margin-top: -118px;
+}
+.form-group4 {
+    margin-top: 30px;
+}
+.group5 {
+    margin-left: 1100px;
+    margin-top: -116px;
+}
+.form-control2 {
+    font-family: 'Roboto', sans-serif;
+    color: #989898;
+    font-size: 14px;
+    background-color: #444444;
+    border: 1px solid #444444;
+    padding: 49px 64px;
+    box-sizing: border-box;
+}
+.form-btn {
+    padding-left: 40px;
+    padding-top: 14px;
+    margin-left: 1200px;
+    margin-top: 30px;
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background: #D1A954;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #D1A954;
+}
+.poln-form {
+    margin-top: 60px;
+    margin-left: -100px;
+}
